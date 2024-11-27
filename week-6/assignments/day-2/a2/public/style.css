@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Noto+Color+Emoji&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+/* dancing script
+ubuntu
+roboto
+roboto-condensed
+poppins
+emojis
+rgba(105,145,214,.05)----blue background
+rgb(138, 180, 248)---- borders
+*/
+
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: roboto, poppins;
+  box-sizing: border-box;
+  color: white;
+}
+body {
+  background-color: #202124;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+h1 {
+  font-family: poppins;
+  text-align: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.input-container {
+  margin-bottom: 20px;
+}
+
+.todo-input-style {
+  background-color: rgba(105, 145, 214, 0.05);
+  border: 1px solid white;
+  width: 250px;
+  padding: 10px 20px 10px 20px;
+  font-size: 15px;
+  margin-right: 15px;
+}
+.todo-input-style:focus {
+  outline: none;
+  border: 0.5px solid rgb(138, 180, 248);
+}
+.todo-input-style:focus::placeholder {
+  color: #8ab4f8;
+}
+
+.todo-add-style {
+  background-color: rgb(138, 180, 248);
+  border: none;
+  color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100px;
+  border-radius: 15px;
+}
+.todo-add-style:active {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.task-container {
+  border-top: 0.5px solid gray;
+
+  padding: 20px;
+
+  display: flex;
+  align-items: center;
+}
+.task-container:hover {
+  background-color: #2d2f31;
+}
+.content-style {
+  background-color: transparent;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 20px;
+  border: none;
+  margin-right: 20px;
+}
+.content-style:focus {
+  outline: none;
+  outline-color: transparent;
+  /* border: 0.5px solid rgb(138, 180, 248); */
+}
+.checkbox-style {
+  height: 20px;
+  width: 20px;
+  margin-right: 20px;
+}
+.index {
+  font-size: 15px;
+}
+.edit-style {
+  background-color: transparent;
+  border: 0.5px solid rgb(138, 180, 248);
+  width: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-right: 20px;
+  border-radius: 15px;
+  text-align: center;
+}
+.edit-style:active {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.delete-style {
+  background-color: transparent;
+  border: none;
+  border: 0.5px solid rgb(138, 180, 248);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 50px;
+  border-radius: 15px;
+}
+.delete-style:active {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+/*for-dom*/
+.strike {
+  text-decoration: line-through;
+}
+.progress-bar {
+  height: 25px;
+  width: 200px;
+  border: 1px solid white;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.bar {
+  height: 100%;
+  background: #8ab4f8;
+}

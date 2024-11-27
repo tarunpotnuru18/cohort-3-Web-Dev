@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>assignment-6.2</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.7/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="signup">
+        signup
+      <input
+        type="text"
+        id="signup-username"
+        placeholder="please enter your username"
+      />
+      <input
+        type="text"
+        id="signup-password"
+        placeholder="please enter your password"
+      />
+      <button onclick="signup()" id="btn-signup">signup</button>
+    </div>
+    <div class="signin">
+        signin
+      <input
+        type="text"
+        id="signin-username"
+        placeholder="please enter your username"
+      />
+      <input
+        type="text"
+        id="signin-password"
+        placeholder="please enter your password"
+      />
+      <button onclick="signin()" id="btn-signin">signin</button>
+    </div>
+    <div class="user">
+      <div id="user-info"></div>
+      <button id="logout" onclick="logout()">logout
+        
+      </button>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

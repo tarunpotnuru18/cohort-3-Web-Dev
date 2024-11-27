@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "commander": "^12.1.0"
+  },
+  "name": "day1",
+  "version": "1.0.0",
+  "main": "split.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+      }
+      * {
+        padding: 0px;
+        margin: 0px;
+        font-family: roboto;
+        box-sizing: border-box;
+        background-color: black;
+      }
+      .todo-input-style {
+        color: white;
+        border: none;
+        height: 50px;
+        width: 250px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        border: 0.5px solid rgba(255, 255, 255, 0.5);
+        background-color: white;
+        color: gray;
+        font-size: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+      .todo-input-style::placeholder {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <input
+      type="text"
+      class="todo-input-style"
+      placeholder="Enter your task !"
+    />
+    <script src="index.js"></script>
+  </body>
+</html>

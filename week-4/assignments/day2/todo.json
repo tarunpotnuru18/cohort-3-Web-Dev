@@ -1,0 +1,19 @@
+[
+  {
+    "userid": "user1",
+    "todo": [
+      {
+        "task": "go to gym",
+        "id": 1
+      },
+      {
+        "task": "go to college",
+        "id": 2
+      },
+      {
+        "task": "go to shopping",
+        "id": 3
+      }
+    ]
+  }
+]
